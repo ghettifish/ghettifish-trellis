@@ -1,0 +1,390 @@
+[14-Feb-2017 19:06:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1266) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/option.php on line 828
+[14-Feb-2017 19:06:07 UTC] PHP Stack trace:
+[14-Feb-2017 19:06:07 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/wp/wp-admin/plugins.php:0
+[14-Feb-2017 19:06:07 UTC] PHP   2. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/plugins.php:422
+[14-Feb-2017 19:06:07 UTC] PHP   3. wp_user_settings() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin-header.php:63
+[14-Feb-2017 19:06:07 UTC] PHP   4. setcookie() /srv/www/eyeofrie.com/current/web/wp/wp-includes/option.php:828
+[14-Feb-2017 19:06:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1266) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/option.php on line 829
+[14-Feb-2017 19:06:07 UTC] PHP Stack trace:
+[14-Feb-2017 19:06:07 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/wp/wp-admin/plugins.php:0
+[14-Feb-2017 19:06:07 UTC] PHP   2. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/plugins.php:422
+[14-Feb-2017 19:06:07 UTC] PHP   3. wp_user_settings() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin-header.php:63
+[14-Feb-2017 19:06:07 UTC] PHP   4. setcookie() /srv/www/eyeofrie.com/current/web/wp/wp-includes/option.php:829
+[14-Feb-2017 19:08:39 UTC] PHP Notice:  A non well formed numeric value encountered in /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php on line 1266
+[14-Feb-2017 19:08:39 UTC] PHP Stack trace:
+[14-Feb-2017 19:08:39 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:0
+[14-Feb-2017 19:08:39 UTC] PHP   2. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:10
+[14-Feb-2017 19:08:39 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin.php:214
+[14-Feb-2017 19:08:39 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin-header.php:135
+[14-Feb-2017 19:08:39 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[14-Feb-2017 19:08:39 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[14-Feb-2017 19:08:39 UTC] PHP   7. WPSDB->admin_head_connection_info() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[14-Feb-2017 19:08:39 UTC] PHP   8. WPSDB->get_bottleneck() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:2357
+[14-Feb-2017 19:08:39 UTC] PHP   9. WPSDB->get_post_max_size() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1293
+[14-Feb-2017 19:08:39 UTC] PHP Notice:  A non well formed numeric value encountered in /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php on line 1266
+[14-Feb-2017 19:08:39 UTC] PHP Stack trace:
+[14-Feb-2017 19:08:39 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:0
+[14-Feb-2017 19:08:39 UTC] PHP   2. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:10
+[14-Feb-2017 19:08:39 UTC] PHP   3. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin.php:222
+[14-Feb-2017 19:08:39 UTC] PHP   4. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[14-Feb-2017 19:08:39 UTC] PHP   5. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[14-Feb-2017 19:08:39 UTC] PHP   6. WPSDB->options_page() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[14-Feb-2017 19:08:39 UTC] PHP   7. WPSDB_Base->template() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1390
+[14-Feb-2017 19:08:39 UTC] PHP   8. include() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb-base.php:62
+[14-Feb-2017 19:08:39 UTC] PHP   9. WPSDB->get_bottleneck() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/template/settings.php:86
+[14-Feb-2017 19:08:39 UTC] PHP  10. WPSDB->get_post_max_size() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1293
+[14-Feb-2017 19:08:58 UTC] PHP Notice:  A non well formed numeric value encountered in /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php on line 1266
+[14-Feb-2017 19:08:58 UTC] PHP Stack trace:
+[14-Feb-2017 19:08:58 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:0
+[14-Feb-2017 19:08:58 UTC] PHP   2. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:10
+[14-Feb-2017 19:08:58 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin.php:214
+[14-Feb-2017 19:08:58 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin-header.php:135
+[14-Feb-2017 19:08:58 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[14-Feb-2017 19:08:58 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[14-Feb-2017 19:08:58 UTC] PHP   7. WPSDB->admin_head_connection_info() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[14-Feb-2017 19:08:58 UTC] PHP   8. WPSDB->get_bottleneck() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:2357
+[14-Feb-2017 19:08:58 UTC] PHP   9. WPSDB->get_post_max_size() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1293
+[14-Feb-2017 19:08:58 UTC] PHP Notice:  A non well formed numeric value encountered in /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php on line 1266
+[14-Feb-2017 19:08:58 UTC] PHP Stack trace:
+[14-Feb-2017 19:08:58 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:0
+[14-Feb-2017 19:08:58 UTC] PHP   2. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-admin/tools.php:10
+[14-Feb-2017 19:08:58 UTC] PHP   3. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-admin/admin.php:222
+[14-Feb-2017 19:08:58 UTC] PHP   4. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[14-Feb-2017 19:08:58 UTC] PHP   5. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[14-Feb-2017 19:08:58 UTC] PHP   6. WPSDB->options_page() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[14-Feb-2017 19:08:58 UTC] PHP   7. WPSDB_Base->template() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1390
+[14-Feb-2017 19:08:58 UTC] PHP   8. include() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb-base.php:62
+[14-Feb-2017 19:08:58 UTC] PHP   9. WPSDB->get_bottleneck() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/template/settings.php:86
+[14-Feb-2017 19:08:58 UTC] PHP  10. WPSDB->get_post_max_size() /srv/www/eyeofrie.com/current/web/app/plugins/wp-sync-db/class/wpsdb.php:1293
+[14-Feb-2017 19:13:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[14-Feb-2017 19:15:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[14-Feb-2017 19:18:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[14-Feb-2017 19:26:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[14-Feb-2017 19:28:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[14-Feb-2017 19:29:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[14-Feb-2017 21:02:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-' at line 1 for query - made by do_action('wp_ajax_wpsdb_migrate_table'), WP_Hook->do_action, WP_Hook->apply_filters, WPSDB->ajax_migrate_table, WPSDB->process_chunk
+[16-Feb-2017 05:10:23 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:10:23 UTC] PHP Stack trace:
+[16-Feb-2017 05:10:23 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:10:23 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:10:23 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:10:23 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:10:23 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:10:23 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:10:23 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:10:23 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:10:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:10:23 UTC] PHP Stack trace:
+[16-Feb-2017 05:10:23 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:10:23 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:10:23 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:10:23 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:10:23 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:10:23 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:10:23 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:10:23 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:10:23 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:11:11 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:11:11 UTC] PHP Stack trace:
+[16-Feb-2017 05:11:11 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:11:11 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:11:11 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:11:11 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:11:11 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:11:11 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:11:11 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:11:11 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:11:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:11:11 UTC] PHP Stack trace:
+[16-Feb-2017 05:11:11 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:11:11 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:11:11 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:11:11 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:11:11 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:11:11 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:11:11 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:11:11 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:11:11 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:11:23 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:11:23 UTC] PHP Stack trace:
+[16-Feb-2017 05:11:23 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:11:23 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:11:23 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:11:23 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:11:23 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:11:23 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:11:23 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:11:23 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:11:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:11:23 UTC] PHP Stack trace:
+[16-Feb-2017 05:11:23 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:11:23 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:11:23 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:11:23 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:11:23 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:11:23 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:11:23 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:11:23 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:11:23 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:13:52 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:13:52 UTC] PHP Stack trace:
+[16-Feb-2017 05:13:52 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:13:52 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:13:52 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:13:52 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:13:52 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:13:52 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:13:52 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:13:52 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:13:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:13:52 UTC] PHP Stack trace:
+[16-Feb-2017 05:13:52 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:13:52 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:13:52 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:13:52 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:13:52 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:13:52 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:13:52 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:13:52 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:13:52 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:15:03 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:15:03 UTC] PHP Stack trace:
+[16-Feb-2017 05:15:03 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:15:03 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:15:03 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:15:03 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:15:03 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:15:03 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:15:03 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:15:03 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:15:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:15:03 UTC] PHP Stack trace:
+[16-Feb-2017 05:15:03 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:15:03 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:15:03 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:15:03 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:15:03 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:15:03 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:15:03 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:15:03 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:15:03 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:25:34 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352
+Stack trace:
+#0 /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php(298): grab_ids_from_gallery(Object(WP))
+#1 /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php(746): do_action_ref_array('wp', Array)
+#4 /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php(955): WP->main('')
+#5 /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php(16): wp()
+#6 /srv/www/eyeofrie.com/current/web/index.php(5): require('/srv/www/eyeofr...')
+#7 {main}
+  thrown in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:26:37 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:26:37 UTC] PHP Stack trace:
+[16-Feb-2017 05:26:37 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:26:37 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:26:37 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:26:37 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:26:37 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:26:37 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:26:37 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:26:37 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:26:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:26:37 UTC] PHP Stack trace:
+[16-Feb-2017 05:26:37 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:26:37 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:26:37 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:26:37 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:26:37 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:26:37 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:26:37 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:26:37 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:26:37 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:30:17 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:30:17 UTC] PHP Stack trace:
+[16-Feb-2017 05:30:17 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:30:17 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:30:17 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:30:17 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:30:17 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:30:17 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:30:17 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:30:17 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:30:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:30:17 UTC] PHP Stack trace:
+[16-Feb-2017 05:30:17 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:30:17 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:30:17 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:30:17 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:30:17 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:30:17 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:30:17 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:30:17 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:30:17 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:30:51 UTC] PHP Notice:  Undefined variable: post in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:30:51 UTC] PHP Stack trace:
+[16-Feb-2017 05:30:51 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:30:51 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:30:51 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:30:51 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:30:51 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:30:51 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:30:51 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:30:51 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:30:51 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:30:51 UTC] PHP Stack trace:
+[16-Feb-2017 05:30:51 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:30:51 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:30:51 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:30:51 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:30:51 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:30:51 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:30:51 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:30:51 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:30:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:30:51 UTC] PHP Stack trace:
+[16-Feb-2017 05:30:51 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:30:51 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:30:51 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:30:51 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:30:51 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:30:51 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:30:51 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:30:51 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:30:51 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:31:06 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:31:06 UTC] PHP Stack trace:
+[16-Feb-2017 05:31:06 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:31:06 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:31:06 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:31:06 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:31:06 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:31:06 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:31:06 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:31:06 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:31:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:31:06 UTC] PHP Stack trace:
+[16-Feb-2017 05:31:06 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:31:06 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:31:06 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:31:06 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:31:06 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:31:06 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:31:06 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:31:06 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:31:06 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:35:28 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/wp/wp-includes/post-template.php on line 298
+[16-Feb-2017 05:35:28 UTC] PHP Stack trace:
+[16-Feb-2017 05:35:28 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:35:28 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:35:28 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:35:28 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:35:28 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:35:28 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:35:28 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:35:28 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:35:28 UTC] PHP   9. the_content() /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352
+[16-Feb-2017 05:35:28 UTC] PHP  10. get_the_content() /srv/www/eyeofrie.com/current/web/wp/wp-includes/post-template.php:231
+[16-Feb-2017 05:35:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/wp/wp-includes/post-template.php:298) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:35:28 UTC] PHP Stack trace:
+[16-Feb-2017 05:35:28 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:35:28 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:35:28 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:35:28 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:35:28 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:35:28 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:35:28 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:35:28 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:35:28 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:36:48 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/wp/wp-includes/post-template.php on line 298
+[16-Feb-2017 05:36:48 UTC] PHP Stack trace:
+[16-Feb-2017 05:36:48 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:36:48 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:36:48 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:36:48 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:36:48 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:36:48 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:36:48 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:36:48 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:36:48 UTC] PHP   9. the_content() /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:348
+[16-Feb-2017 05:36:48 UTC] PHP  10. get_the_content() /srv/www/eyeofrie.com/current/web/wp/wp-includes/post-template.php:231
+[16-Feb-2017 05:36:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/wp/wp-includes/post-template.php:298) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:36:48 UTC] PHP Stack trace:
+[16-Feb-2017 05:36:48 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:36:48 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:36:48 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:36:48 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:36:48 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:36:48 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:36:48 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:36:48 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:36:48 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:37:06 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:37:06 UTC] PHP Stack trace:
+[16-Feb-2017 05:37:06 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:37:06 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:37:06 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:37:06 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:37:06 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:37:06 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:37:06 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:37:06 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:37:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:37:06 UTC] PHP Stack trace:
+[16-Feb-2017 05:37:06 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:37:06 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:37:06 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:37:06 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:37:06 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:37:06 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:37:06 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:37:06 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:37:06 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:56:31 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:56:31 UTC] PHP Stack trace:
+[16-Feb-2017 05:56:31 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:56:31 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:56:31 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:56:31 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:56:31 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:56:31 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:56:31 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:56:31 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:56:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:56:31 UTC] PHP Stack trace:
+[16-Feb-2017 05:56:31 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:56:31 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:56:31 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:56:31 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:56:31 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:56:31 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:56:31 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:56:31 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:56:31 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 05:56:36 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php on line 352
+[16-Feb-2017 05:56:36 UTC] PHP Stack trace:
+[16-Feb-2017 05:56:36 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:56:36 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:56:36 UTC] PHP   3. wp() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:16
+[16-Feb-2017 05:56:36 UTC] PHP   4. WP->main() /srv/www/eyeofrie.com/current/web/wp/wp-includes/functions.php:955
+[16-Feb-2017 05:56:36 UTC] PHP   5. do_action_ref_array() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp.php:746
+[16-Feb-2017 05:56:36 UTC] PHP   6. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:515
+[16-Feb-2017 05:56:36 UTC] PHP   7. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:56:36 UTC] PHP   8. grab_ids_from_gallery() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:56:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/eyeofrie.com/current/web/app/themes/eames/functions.php:352) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php on line 1179
+[16-Feb-2017 05:56:36 UTC] PHP Stack trace:
+[16-Feb-2017 05:56:36 UTC] PHP   1. {main}() /srv/www/eyeofrie.com/current/web/index.php:0
+[16-Feb-2017 05:56:36 UTC] PHP   2. require() /srv/www/eyeofrie.com/current/web/index.php:5
+[16-Feb-2017 05:56:36 UTC] PHP   3. require_once() /srv/www/eyeofrie.com/current/web/wp/wp-blog-header.php:19
+[16-Feb-2017 05:56:36 UTC] PHP   4. do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/template-loader.php:12
+[16-Feb-2017 05:56:36 UTC] PHP   5. WP_Hook->do_action() /srv/www/eyeofrie.com/current/web/wp/wp-includes/plugin.php:453
+[16-Feb-2017 05:56:36 UTC] PHP   6. WP_Hook->apply_filters() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:323
+[16-Feb-2017 05:56:36 UTC] PHP   7. wp_redirect_admin_locations() /srv/www/eyeofrie.com/current/web/wp/wp-includes/class-wp-hook.php:298
+[16-Feb-2017 05:56:36 UTC] PHP   8. wp_redirect() /srv/www/eyeofrie.com/current/web/wp/wp-includes/canonical.php:644
+[16-Feb-2017 05:56:36 UTC] PHP   9. header() /srv/www/eyeofrie.com/current/web/wp/wp-includes/pluggable.php:1179
+[16-Feb-2017 15:45:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/update.php on line 129
+[16-Feb-2017 15:45:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/update.php on line 319
+[16-Feb-2017 15:45:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/update.php on line 499
+[17-Feb-2017 04:30:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/update.php on line 129
+[17-Feb-2017 04:30:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/update.php on line 319
+[17-Feb-2017 04:30:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/eyeofrie.com/current/web/wp/wp-includes/update.php on line 499

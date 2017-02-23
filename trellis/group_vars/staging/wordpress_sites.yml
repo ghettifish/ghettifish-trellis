@@ -1,0 +1,53 @@
+# Documentation: https://roots.io/trellis/docs/remote-server-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/staging/vault.yml
+
+wordpress_sites:
+  ghettifish.com:
+    site_hosts:
+      - canonical: staging.ghettifish.ghet.com
+        # redirects:
+        #   - otherdomain.com
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: ghettifish.com
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: true
+  writeastoryfor.me:
+    site_hosts:
+      - canonical: staging.writeastoryfor.ghet.com
+        # redirects:
+        #   - otherdomain.com
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: writeastoryfor.me
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: true
+  nicbovee.com:
+    site_hosts:
+      - canonical: staging.nicbovee.ghet.com
+        # redirects:
+        #   - otherdomain.com
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: nicbovee.com
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: true

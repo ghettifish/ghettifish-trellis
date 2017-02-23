@@ -1,0 +1,89 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  ghettifish.com:
+    site_hosts:
+      - canonical: ghettifish.dev
+        redirects:
+          - www.ghettifish.dev
+    local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  writeastoryfor.me:
+    site_hosts:
+      - canonical: writeastoryfor.dev
+        redirects:
+          - www.writeastoryfor.dev
+    local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  nicbovee.com:
+    site_hosts:
+      - canonical: nicbovee.dev
+        redirects:
+          - www.nicbovee.dev
+    local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  makeexerciseeasy.com:
+    site_hosts:
+      - canonical: makeexerciseeasy.dev
+        redirects:
+          - www.makeexerciseeasy.dev
+    local_path: ../makeexerciseeasy.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  beconfidenttoday.com:
+    site_hosts:
+      - canonical: beconfidenttoday.dev
+        redirects:
+          - www.beconfidenttoday.dev
+    local_path: ../beconfidenttoday.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  eyeofrie.com:
+    site_hosts:
+      - canonical: eyeofrie.dev
+        redirects:
+          - www.eyeofrie.dev
+    local_path: ../eyeofrie.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
