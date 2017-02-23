@@ -5,7 +5,7 @@
 wordpress_sites:
   ghettifish.com:
     site_hosts:
-      - canonical: staging.ghettifish.ghet.com
+      - canonical: staging.ghettifish.ghet.co
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
@@ -21,7 +21,7 @@ wordpress_sites:
       enabled: true
   writeastoryfor.me:
     site_hosts:
-      - canonical: staging.writeastoryfor.ghet.com
+      - canonical: staging.writeastoryfor.ghet.co
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
@@ -37,7 +37,7 @@ wordpress_sites:
       enabled: true
   nicbovee.com:
     site_hosts:
-      - canonical: staging.nicbovee.ghet.com
+      - canonical: staging.nicbovee.ghet.co
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
