@@ -4,3 +4,4 @@ vendor/roles
 *.py[co]
 *.retry
 .vault_pass
+Notouchy/
