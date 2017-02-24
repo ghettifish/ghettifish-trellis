@@ -1,21 +1,53 @@
 # Documentation: https://roots.io/trellis/docs/remote-server-setup/
 # `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
-# Define accompanying passwords/secrets in group_vars/production/vault.yml
+# Define accompanying passwords/secrets in group_vars/staging/vault.yml
 
 wordpress_sites:
-  example.com:
+  ghettifish.com:
     site_hosts:
-      - canonical: example.com
+      - canonical: ghettifish.com
         redirects:
-          - www.example.com
+          - www.ghettifish.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/example.com.git # replace with your Git repo URL
-    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: ghettifish.com
     branch: master
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
+      enabled: true
+  writeastoryfor.me:
+    site_hosts:
+      - canonical: writeastoryfor.me
+         redirects:
+           - www.writeastoryfor.me
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: writeastoryfor.me
+    branch: master
+    multisite:
       enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: true
+  nicbovee.com:
+    site_hosts:
+      - canonical: nicbovee.com
+        redirects:
+           - www.nicbovee.com
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: nicbovee.com
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: true
