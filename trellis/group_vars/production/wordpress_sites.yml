@@ -15,15 +15,15 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: true
   writeastoryfor.me:
     site_hosts:
       - canonical: writeastoryfor.me
-         redirects:
-           - www.writeastoryfor.me
+        redirects:
+          - www.writeastoryfor.me
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
     repo_subtree_path: writeastoryfor.me
@@ -31,7 +31,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: true
@@ -47,7 +47,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: true
