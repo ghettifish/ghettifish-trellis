@@ -1,5 +1,5 @@
 {{--
-  Template Name: Custom Template
+  Template Name: Front Page
 --}}
 
 @extends('layouts.base')

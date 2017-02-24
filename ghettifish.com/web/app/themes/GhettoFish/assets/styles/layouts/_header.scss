@@ -3,4 +3,6 @@
 }
 .banner .nav a {
   @extend .nav-link;
+  color: red;
+  float: right;
 }
