@@ -4730,13 +4730,19 @@ sparkles@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/sparkles/-/sparkles-1.0.0.tgz#1acbbfb592436d10bbe8f785b7cc6f82815012c3"
 
+spdx-correct@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-2.0.0.tgz#afc1a13831bc9bdf17150f83c781046ab523021d"
+  dependencies:
+    spdx-expression-parse "^1.0.4"
+
 spdx-correct@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz#4b3073d933ff51f3912f03ac5519498a4150db40"
   dependencies:
     spdx-license-ids "^1.0.2"
 
-spdx-expression-parse@~1.0.0:
+spdx-expression-parse@^1.0.4, spdx-expression-parse@~1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/spdx-expression-parse/-/spdx-expression-parse-1.0.4.tgz#9bdf2f20e1f40ed447fbe273266191fced51626c"
 
