@@ -5,8 +5,9 @@
 wordpress_sites:
   ghettifish.com:
     site_hosts:
-      - canonical: ghettifish.com
+      - canonical: ghettifish.ghet.co
         redirects:
+          - ghettifish.com
           - www.ghettifish.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
