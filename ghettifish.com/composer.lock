@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ae92e25be29f4ba12fb63eafd9dadb7",
-    "content-hash": "98261bebcdcfb9ea5e9ffac67dd48cd9",
+    "content-hash": "4140a145b4df0a534f20b673132f0b55",
     "packages": [
         {
             "name": "composer/installers",
@@ -105,7 +104,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-04-13T19:46:30+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -142,7 +141,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2017-01-26 18:32:19"
+            "time": "2017-01-26T18:32:19+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -190,7 +189,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2015-06-11T15:15:30+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -232,7 +231,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08 17:14:32"
+            "time": "2016-05-08T17:14:32+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -289,7 +288,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -339,7 +338,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wp-sync-db/wp-sync-db",
@@ -404,6 +403,27 @@
                 "wp-sync-db"
             ],
             "time": "2016-03-07 16:34:12"
+        },
+        {
+            "name": "wpackagist-plugin/scalable-vector-graphics-svg",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/scalable-vector-graphics-svg/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/scalable-vector-graphics-svg.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/scalable-vector-graphics-svg/",
+            "time": "2017-02-07T23:58:54+00:00"
         }
     ],
     "packages-dev": [
@@ -483,14 +503,15 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30 04:02:31"
+            "time": "2016-11-30T04:02:31+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "wp-sync-db/wp-sync-db": 20,
-        "wp-sync-db/wp-sync-db-media-files": 20
+        "wp-sync-db/wp-sync-db-media-files": 20,
+        "wpackagist-plugin/scalable-vector-graphics-svg": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
