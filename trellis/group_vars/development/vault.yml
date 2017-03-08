@@ -16,15 +16,3 @@ vault_wordpress_sites:
       admin_password: admin
       env:
         db_password: example_dbpassword
-  makeexerciseeasy.com:
-        admin_password: admin
-        env:
-          db_password: example_dbpassword
-  beconfidenttoday.com:
-        admin_password: admin
-        env:
-          db_password: example_dbpassword
-  eyeofrie.com:
-        admin_password: admin
-        env:
-          db_password: example_dbpassword
