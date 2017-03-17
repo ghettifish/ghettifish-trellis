@@ -45,3 +45,17 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: false
+  rampartls.com:
+    site_hosts:
+      - canonical: rampartls.dev
+        redirects:
+          - www.rampartls.dev
+    local_path: ../rampartls.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
