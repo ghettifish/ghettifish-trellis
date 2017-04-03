@@ -1,0 +1,35 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+ip = '192.168.50.5'
+
+ANSIBLE_PATH_ON_VM = '/home/vagrant/trellis' # absolute path to Ansible directory on virtual machine
+
+Vagrant.require_version '>= 1.8.5'
+
+Vagrant.configure("2") do |config|
+  config.vm.box = 'bento/ubuntu-16.04'
+  config.vm.box_version = '2.2.9'
+  config.ssh.forward_agent = true
+  config.vm.post_up_message = post_up_message
+
+  # Fix for: "stdin: is not a tty"
+  # https://github.com/mitchellh/vagrant/issues/1673#issuecomment-28288042
+  config.ssh.shell = %{bash -c 'BASH_ENV=/etc/profile exec bash'}
+
+  # Required for NFS to work
+  config.vm.network :private_network, ip: ip, hostsupdater: 'skip'
+
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  config.vm.synced_folder "src/", "/srv/www"
+end
+
+def post_up_message
+  msg = 'Your Trellis Vagrant box is ready to use!'
+  msg << "\n* Composer and WP-CLI commands need to be run on the virtual machine."
+  msg << "\n* You can SSH into the machine with `vagrant ssh`."
+  msg << "\n* Then navigate to your WordPress sites at `/srv/www`"
+  msg << "\n  or to your Trellis files at `#{ANSIBLE_PATH_ON_VM}`."
+
+  msg
+end
