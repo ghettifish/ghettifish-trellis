@@ -51,3 +51,19 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: true
+  recycles.co:
+    site_hosts:
+      - canonical: recycles.ghet.co
+        redirects:
+          - www.recycles.ghet.co
+    local_path: ../recycles.co # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: recycles.co
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
