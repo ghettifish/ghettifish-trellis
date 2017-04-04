@@ -4,8 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad6f493b8307cd0b55e1b5a5d14fc108",
+    "hash": "a7459f3ed4ac79e24b847aba6e5c2191",
+    "content-hash": "4709d52480f2ab1887cf6cc3c75edde9",
     "packages": [
+        {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.5.11",
+            "dist": {
+                "type": "zip",
+                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.11",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "philippbaschke/acf-pro-installer": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.25",
@@ -112,12 +128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a"
+                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
+                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
                 "shasum": ""
             },
             "require": {
@@ -234,6 +250,62 @@
             "time": "2016-05-08 17:14:32"
         },
         {
+            "name": "philippbaschke/acf-pro-installer",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhilippBaschke/acf-pro-installer.git",
+                "reference": "f18e537183958159ef5f6cb1f5b684f59d55f3eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhilippBaschke/acf-pro-installer/zipball/f18e537183958159ef5f6cb1f5b684f59d55f3eb",
+                "reference": "f18e537183958159ef5f6cb1f5b684f59d55f3eb",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.5",
+                "vlucas/phpdotenv": "^2.2"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*",
+                "phpunit/phpunit": "4.8.*",
+                "satooshi/php-coveralls": "1.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PhilippBaschke\\ACFProInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhilippBaschke\\ACFProInstaller\\": "src/ACFProInstaller"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Baschke",
+                    "email": "philipp@baschke.com"
+                }
+            ],
+            "description": "An install helper for Advanced Custom Fields PRO",
+            "keywords": [
+                "acf",
+                "composer",
+                "env",
+                "plugin",
+                "pro",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2016-07-20 10:19:36"
+        },
+        {
             "name": "roots/wp-password-bcrypt",
             "version": "1.0.0",
             "source": {
@@ -339,6 +411,70 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/8f18390a83374089acfac202491e78d4938616fd",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-04-24 08:56:12"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/cebf64eb528532d627284353278b284bb12e7ef1",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-03-07 16:34:12"
         }
     ],
     "packages-dev": [
@@ -423,7 +559,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20,
+        "wp-sync-db/wp-sync-db-media-files": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

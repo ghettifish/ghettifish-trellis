@@ -30,6 +30,22 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.5.11",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -38,7 +54,10 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.7.3",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wp-sync-db/wp-sync-db": "dev-master@dev",
+    "wp-sync-db/wp-sync-db-media-files": "dev-master@dev",
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.5.11"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
