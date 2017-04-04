@@ -3,13 +3,14 @@
 // Import npm dependencies
 @import "~font-awesome/scss/font-awesome";
 @import "~bootstrap/scss/bootstrap";
-
+@import '../fonts/teko';
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/wp-classes";
 @import "layouts/header";
+@import "layouts/homebase";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
