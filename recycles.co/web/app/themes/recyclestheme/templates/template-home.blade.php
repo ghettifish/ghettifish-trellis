@@ -9,7 +9,7 @@
     @include('partials.home-hero')
     @include('partials.section1')
     @include('partials.section2')
-    @include('partials.section1')
+    @include('partials.section')
     @include('partials.content-page')
     @php(do_action('get_header'))
     @include('partials.header')

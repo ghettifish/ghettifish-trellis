@@ -1,4 +1,4 @@
-<section class="container section1">
+<section class="section1">
   @php($image = get_field("section1_image"))
 
   <div class="row">
