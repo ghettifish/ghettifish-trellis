@@ -11,10 +11,12 @@
 
     </div>
 
-    <div class="col-md-6">
-      <h2 class="section1_title">{{get_field( "section1_title" )}}</h2>
-      <p>{!! get_field( "section1_body" ) !!}</p>
-      <a href="{{ get_field( "section1_btn_url" )}}" class="btn btn-primary" role="button">{{ get_field("section1_btn_text") }}</a>
+    <div class="col-md-6 d-flex align-items-center">
+      <div>
+        <h2 class="section1_title">{{get_field( "section1_title" )}}</h2>
+        <p>{!! get_field( "section1_body" ) !!}</p>
+        <a href="{{ get_field( "section1_btn_url" )}}" class="btn btn-primary" role="button">{{ get_field("section1_btn_text") }}</a>
+      <div>
     </div>
   </div>
 </section>
