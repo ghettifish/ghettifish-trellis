@@ -9,7 +9,7 @@ wordpress_sites:
         redirects:
           - ghettifish.ghet.co
           - www.ghettifish.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
     repo_subtree_path: ghettifish.com
     branch: master
@@ -25,7 +25,7 @@ wordpress_sites:
       - canonical: writeastoryfor.me
         redirects:
           - www.writeastoryfor.me
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
     repo_subtree_path: writeastoryfor.me
     branch: master
