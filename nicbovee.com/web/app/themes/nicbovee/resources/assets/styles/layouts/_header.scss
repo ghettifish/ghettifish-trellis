@@ -1,35 +1,35 @@
-.nav-hover{
-  color: yellow;
-  text-decoration: none;
-}
+  .nav-hover{
+    color: yellow;
+    text-decoration: none;
+  }
 
-.banner .nav li {
-  @extend .nav-item;
-}
-.banner .nav a {
-  @extend .nav-link;
-  @extend .nav-pack;
-}
+  .banner .nav li {
+    @extend .nav-item;
+  }
+  .banner .nav a {
+    @extend .nav-link;
+    @extend .nav-pack;
+  }
 
-.banner {
-  background-color: $nb-red;
-}
+  .banner {
+    background-color: $nb-red;
+  }
 
-.nav-primary {
-  display: inline-block;
-}
+  .nav-primary {
+    display: inline-block;
+  }
 
 
-.brand {
-    vertical-align:middle;
+  .brand {
+      vertical-align:middle;
 
-    div {
-      background: url('/app/themes/nicbovee/dist/images/nicboveelogo-04.png') no-repeat center;
-      background-size: contain;
-      color:rgba(255, 255, 255, 0);
-      display:inline-block;
-      width:120px;
-      height: 25px;
-      &:hover {color:rgba(255, 255, 255, 0);}
-    }
-}
+      div {
+        background: url('../images/nicboveelogo-04.png') no-repeat center;
+        background-size: contain;
+        color:rgba(255, 255, 255, 0);
+        display:inline-block;
+        width:120px;
+        height: 25px;
+        &:hover {color:rgba(255, 255, 255, 0);}
+      }
+  }

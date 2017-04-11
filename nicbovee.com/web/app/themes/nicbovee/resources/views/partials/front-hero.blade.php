@@ -8,8 +8,7 @@
       </div>
     </div>
     <div class="row" style="width: 80%; margin: auto;">
-      <div class="col-md-6">
-        <img src="/app/themes/nicbovee/dist/images/nichoody.png" class="img-fluid animated fadeInUp">
+      <div class="col-md-6 nichoody animated fadeInUp">
       </div>
       <div class="col-md-6">
         <h2 class="howdy animated fadeInLeft">Howdy,</h2>
