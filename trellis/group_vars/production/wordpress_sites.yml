@@ -42,7 +42,7 @@ wordpress_sites:
         redirects:
            - nicbovee.com
            - www.nicbovee.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
     repo_subtree_path: nicbovee.com
     branch: master
