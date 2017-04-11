@@ -36,12 +36,14 @@
     "php": ">=5.6",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.7.3",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-sync-db/wp-sync-db": "dev-master@dev",
     "wp-sync-db/wp-sync-db-media-files": "dev-master",
-    "wpackagist-plugin/scalable-vector-graphics-svg": "dev-trunk"
+    "wpackagist-plugin/scalable-vector-graphics-svg": "dev-trunk",
+    "wpackagist-plugin/tiny-compress-images": "dev-trunk",
+    "wpackagist-plugin/jetpack": "dev-trunk",
+    "johnpbloch/wordpress": "4.7.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

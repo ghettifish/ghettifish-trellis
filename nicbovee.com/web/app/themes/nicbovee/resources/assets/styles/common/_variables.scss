@@ -1,0 +1,23 @@
+// Colors
+$nb-red: #e61c42;
+$nb-gray: #2f3334;
+$font: Bebas;
+$fa-font-path:          '~font-awesome/fonts';
+
+/*Fonts*/
+.nav-pack {
+  font-family: $font;
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+    &:hover, &:active, &focus{
+      color: yellow;
+      text-decoration: none;
+    }
+}
+
+
+.big-boy-font {
+  font-family: $font;
+  font-size: 2.5rem;
+}

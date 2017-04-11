@@ -1,0 +1,67 @@
+h1 {
+  font-family: $font;}
+.front-hero {
+  height: 70vh;
+  padding: 5vh 0;
+  overflow: hidden;
+  background-image: linear-gradient(120deg, #bccdd1 0%, #6fccdd 100%);
+}
+
+.sidebar {
+  border-left: 1px solid $nb-gray;
+}
+.wrap {
+  background: white;
+}
+
+.hero-content {
+  position: fixed;
+  width: 100%;
+}
+
+.hero-content h1{
+  @extend .big-boy-font;
+  color: $nb-gray;
+}
+
+.howdy {
+  @extend .big-boy-font;
+  font-size: 8rem;
+  color: $nb-red;
+  margin-top: 15%;
+}
+
+.myname {
+  font-family: $font;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.entry-title a {
+  font-family: $font;
+  font-size: 1.5rem;
+  color: lighten($nb-gray, 30%);
+}
+
+.nic {
+  background: url("http://localhost:3000/app/themes/nicbovee/dist/images/Nic-Hoodie.png") no-repeat;
+  height: 80vh;
+}
+
+.main {
+  padding: 5vh 0;
+}
+
+.nav-previous a{
+  color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: $nb-red;
+  box-shadow: 1px 1px 5px 1px lighten($nb-gray, 50%);
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: lighten($nb-red, 10%);
+    padding: 1.5rem;
+    text-decoration:none;
+  }
+}
