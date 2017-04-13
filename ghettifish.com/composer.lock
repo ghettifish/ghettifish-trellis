@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "301d5db601e80742b9f8379b799f2576",
-    "content-hash": "02c3e69c8a8cf4c2264d1439a3a88f1b",
+    "hash": "5fbd479cec5ad53a0ca757cf1fdbd998",
+    "content-hash": "a0088da70ac467b6762db3a3e45684b5",
     "packages": [
         {
             "name": "composer/installers",
@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a"
+                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
+                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
                 "shasum": ""
             },
             "require": {
@@ -406,6 +406,27 @@
             "time": "2016-03-07 16:34:12"
         },
         {
+            "name": "wpackagist-plugin/fma-request-for-quote",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fma-request-for-quote/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fma-request-for-quote.zip?timestamp=1485753774",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fma-request-for-quote/",
+            "time": "2017-01-30 05:22:54"
+        },
+        {
             "name": "wpackagist-plugin/scalable-vector-graphics-svg",
             "version": "dev-trunk",
             "source": {
@@ -425,6 +446,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/scalable-vector-graphics-svg/",
             "time": "2017-02-07 23:58:54"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.zip?timestamp=1492026596",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/",
+            "time": "2017-04-12 20:49:56"
         }
     ],
     "packages-dev": [
@@ -512,7 +554,9 @@
     "stability-flags": {
         "wp-sync-db/wp-sync-db": 20,
         "wp-sync-db/wp-sync-db-media-files": 20,
-        "wpackagist-plugin/scalable-vector-graphics-svg": 20
+        "wpackagist-plugin/scalable-vector-graphics-svg": 20,
+        "wpackagist-plugin/woocommerce": 20,
+        "wpackagist-plugin/fma-request-for-quote": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -85,3 +85,7 @@ if (($sage_views = basename(__DIR__).'/resources/views') !== get_option('templat
     wp_redirect($_SERVER['REQUEST_URI']);
     exit();
 }
+
+register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'THEMENAME' ),
+) );
