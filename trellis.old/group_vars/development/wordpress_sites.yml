@@ -1,0 +1,75 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  ghettifish.com:
+    site_hosts:
+      - canonical: ghettifish.dev
+        redirects:
+          - www.ghettifish.dev
+    local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  writeastoryfor.me:
+    site_hosts:
+      - canonical: writeastoryfor.dev
+        redirects:
+          - www.writeastoryfor.dev
+    local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  nicbovee.com:
+    site_hosts:
+      - canonical: nicbovee.dev
+        redirects:
+          - www.nicbovee.dev
+    local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  rampartls.com:
+    site_hosts:
+      - canonical: rampartls.dev
+        redirects:
+          - www.rampartls.dev
+    local_path: ../rampartls.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+  recycles.co:
+    site_hosts:
+      - canonical: recycles.dev
+        redirects:
+          - www.recycles.dev
+    local_path: ../recycles.co # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false

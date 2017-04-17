@@ -21,3 +21,16 @@ $fa-font-path:          '~font-awesome/fonts';
   font-family: $font;
   font-size: 2.5rem;
 }
+
+.nav-hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.banner .nav li {
+  @extend .nav-item;
+}
+.banner .nav a {
+  @extend .nav-link;
+  @extend .nav-pack;
+}

@@ -1,0 +1,4 @@
+- hosts: production
+  tasks:
+  - name: Change root password
+    user: name=admin update_password=always password=T59i65Y!11!16jn

@@ -1,0 +1,69 @@
+# Documentation: https://roots.io/trellis/docs/remote-server-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/staging/vault.yml
+
+wordpress_sites:
+  ghettifish.com:
+    site_hosts:
+      - canonical: staging.ghettifish.ghet.co
+        # redirects:
+        #   - otherdomain.com
+    local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: ghettifish.com
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: true
+  writeastoryfor.me:
+    site_hosts:
+      - canonical: staging.writeastoryfor.ghet.co
+        # redirects:
+        #   - otherdomain.com
+    local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: writeastoryfor.me
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: true
+  nicbovee.com:
+    site_hosts:
+      - canonical: staging.nicbovee.ghet.co
+        # redirects:
+        #   - otherdomain.com
+    local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: nicbovee.com
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: true
+  recycles.co:
+    site_hosts:
+      - canonical: recycles.ghet.co
+        redirects:
+          - www.recycles.ghet.co
+    local_path: ../recycles.co # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:nicbovee/ghettifish-trellis.git # replace with your Git repo URL
+    repo_subtree_path: recycles.co
+    admin_email: nic@ghettifish.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
